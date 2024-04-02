@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="45c3f9208419c250f877733a647d5a3d" label="Address" max_length="40" name="x_snc_order_sys_address" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Geo Point" max_length="40" name="geo_point" type="geo_point"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Zip Code" max_length="40" name="zip_code" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c168bd248419c250f877733a647d5a22" label="Products" max_length="40" name="x_snc_order_sys_products" type="collection">
+        <element label="Currency" max_length="20" name="currency" type="currency"/>
+        <element label="Price" max_length="40" name="price" type="string"/>
+        <element label="Product Name" max_length="40" name="product_name" type="string"/>
+        <element label="SKU" max_length="40" name="sku" type="string"/>
+        <element label="Volume" max_length="40" name="volume" type="float"/>
+        <index name="index" unique="true">
+            <element name="sku"/>
+        </index>
+    </element>
+</database>

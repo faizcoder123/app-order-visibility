@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="41df4728849dc250f877733a647d5a91" label="Risk" max_length="40" name="x_snc_order_sys_risk" type="collection">
+        <element label="Company Id" max_length="40" name="company_id" type="string"/>
+        <element label="Risk Code" max_length="40" name="risk_code" type="string"/>
+        <element label="Risk Reason" max_length="40" name="risk_reason" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a329bee8841dc250f877733a647d5ad6" extends="x_snc_order_sys_eta_details" label="Line ETA Details" max_length="40" name="x_snc_order_sys_line_eta_details" type="collection">
+        <element label="Line Item Id" max_length="32" name="line_item_id" reference="x_snc_order_sys_line_items" type="reference"/>
+        <index name="index">
+            <element name="line_item_id"/>
+        </index>
+    </element>
+</database>

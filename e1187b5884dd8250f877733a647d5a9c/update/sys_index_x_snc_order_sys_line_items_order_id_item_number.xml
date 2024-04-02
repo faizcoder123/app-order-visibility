@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>order_id,item_number</col_name_string>
+        <index_col_name>88b67d21849dc650f877733a647d5ac0,175731248419c250f877733a647d5a46</index_col_name>
+        <logical_table_name>x_snc_order_sys_line_items</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-01 09:40:23</sys_created_on>
+        <sys_id>8a1a8e2984ddc650f877733a647d5a1f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_order_sys_line_items</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_update_name>sys_index_x_snc_order_sys_line_items_order_id_item_number</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-01 09:40:23</sys_updated_on>
+        <table display_value="Line Items" name="x_snc_order_sys_line_items">f65771248419c250f877733a647d5a8f</table>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

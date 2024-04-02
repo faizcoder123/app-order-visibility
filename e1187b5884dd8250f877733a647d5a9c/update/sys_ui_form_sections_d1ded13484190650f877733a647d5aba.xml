@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d1ded13484190650f877733a647d5aba" sys_domain="global" table="x_snc_order_sys_orders" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>69ded13484190650f877733a647d5abe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">a21ef2a0845dc250f877733a647d5ac2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5ded13484190650f877733a647d5abf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Seller And Customer" display_value="Seller And Customer" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">55ded13484190650f877733a647d5a37</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>edded13484190650f877733a647d5ac2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Order Status" display_value="Order Status" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">9dded13484190650f877733a647d5a39</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5ded13484190650f877733a647d5adf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Pickup ETA" display_value="Pickup ETA" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d9ded13484190650f877733a647d5a3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65ded13484190650f877733a647d5ae3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Destination ETA" display_value="Destination ETA" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">9dded13484190650f877733a647d5ab7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e5ded13484190650f877733a647d5ae7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Destination" display_value="Destination" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d9ded13484190650f877733a647d5ab8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25ded13484190650f877733a647d5af8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Origin " display_value="Origin " name="x_snc_order_sys_orders" sys_domain="global" view="Default view">19ded13484190650f877733a647d5ab9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:58</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:38:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f74f1d3484190650f877733a647d5a5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_order_sys_orders" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">d1ded13484190650f877733a647d5aba</sys_ui_form>
+            <sys_ui_section caption="Risk" display_value="Risk" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">774fd93484190650f877733a647d5ad2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:38:01</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_order_sys_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-03-29 22:35:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d1ded13484190650f877733a647d5aba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_order_sys_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d1ded13484190650f877733a647d5aba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-03-29 22:35:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

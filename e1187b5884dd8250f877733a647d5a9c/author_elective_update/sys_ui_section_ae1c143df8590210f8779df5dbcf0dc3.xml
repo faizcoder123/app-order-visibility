@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Line items" section_id="ae1c143df8590210f8779df5dbcf0dc3" sys_domain="global" table="x_snc_order_sys_orders" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>line_items</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 20:18:19</sys_created_on>
+            <sys_id>e61c143df8590210f8779df5dbcf0dcd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Line items" display_value="Line items" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">ae1c143df8590210f8779df5dbcf0dc3</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 20:18:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Line items</caption>
+            <header>false</header>
+            <name>x_snc_order_sys_orders</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-01 20:18:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae1c143df8590210f8779df5dbcf0dc3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_order_sys_orders</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+            <sys_update_name>sys_ui_section_ae1c143df8590210f8779df5dbcf0dc3</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-01 20:18:18</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</application>
+        <file_path/>
+        <instance_id>538218bf2930021065656e96a56df608</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ui_section_ae1c143df8590210f8779df5dbcf0dc3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Line items" section_id="ae1c143df8590210f8779df5dbcf0dc3" sys_domain="global" table="x_snc_order_sys_orders" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>line_items</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-01 20:18:19</sys_created_on><sys_id>e61c143df8590210f8779df5dbcf0dcd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Line items" display_value="Line items" name="x_snc_order_sys_orders" sys_domain="global" view="Default view">ae1c143df8590210f8779df5dbcf0dc3</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-01 20:18:19</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Line items</caption><header>false</header><name>x_snc_order_sys_orders</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-01 20:18:18</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ae1c143df8590210f8779df5dbcf0dc3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_snc_order_sys_orders</sys_name><sys_overrides/><sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package><sys_policy/><sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope><sys_update_name>sys_ui_section_ae1c143df8590210f8779df5dbcf0dc3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-01 20:18:18</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1550646552</payload_hash>
+        <record_name>Orders</record_name>
+        <reverted_from/>
+        <source>25187b5884dd8250f877733a647d5aa0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 20:18:19</sys_created_on>
+        <sys_id>a61c143df8590210f8779df5dbcf0ddc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9b500fa00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 20:18:19</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>661c143db9590210cd70deb169bf53cf</update_guid>
+        <update_guid_history>661c143db9590210cd70deb169bf53cf:-1550646552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-01 20:52:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>17b31ab33e1642659593a7d3d5bcfa61</sys_id>
+        <sys_metadata>ae1c143df8590210f8779df5dbcf0dc3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Line items</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_parent display_value="Orders">0e5cf7dc84dd8250f877733a647d5a50</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_scope_delete display_value="">4da35892c374400c9c4a38e6eb2300e4</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ae1c143df8590210f8779df5dbcf0dc3</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ae1c143df8590210f8779df5dbcf0dc3">a61c143df8590210f8779df5dbcf0ddc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-01 20:52:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

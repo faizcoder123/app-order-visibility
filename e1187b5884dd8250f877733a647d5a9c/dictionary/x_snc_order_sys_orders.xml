@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0e5cf7dc84dd8250f877733a647d5a50" label="Orders" max_length="40" name="x_snc_order_sys_orders" type="collection">
+        <element label="Buyer Name" max_length="40" name="buyer_name" type="string"/>
+        <element label="Company Id" mandatory="true" max_length="40" name="company_id" type="string" unique="true"/>
+        <element label="Destination" max_length="32" name="destination" reference="x_snc_order_sys_address" type="reference"/>
+        <element label="Destination ETA" max_length="32" name="destination_eta" reference="x_snc_order_sys_order_eta_details" type="reference"/>
+        <element default="N/A" label="Ship Date" max_length="40" name="eta" type="glide_date_time"/>
+        <element choice="1" label="Freight type" mandatory="true" max_length="40" name="freight_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="LTL" sequence="0" value="LTL"/>
+                <element inactive_on_update="false" label="Rail" sequence="1" value="Rail"/>
+                <element inactive_on_update="false" label="TL" sequence="2" value="TL"/>
+                <element inactive_on_update="false" label="Air" sequence="3" value="Air"/>
+                <element inactive_on_update="false" label="Ocean" sequence="4" value="Ocean"/>
+                <element inactive_on_update="false" label="Intermodal Rail" sequence="5" value="Intermodal"/>
+            </choice>
+        </element>
+        <element label="Must By Ship Date" max_length="40" name="must_by_ship_date" type="glide_date_time"/>
+        <element choice="1" label="Order ERP Status" max_length="40" name="order_erp_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="Packed" sequence="1" value="Order packed"/>
+                <element inactive_on_update="false" label="Partially Shipped" sequence="2" value="Partially Shipped"/>
+                <element inactive_on_update="false" label="Fully Shipped" sequence="3" value="Shipped"/>
+                <element inactive_on_update="false" label="Partially Received" sequence="4" value="Partially"/>
+                <element inactive_on_update="false" label="Fully Received" sequence="5" value="Received"/>
+                <element inactive_on_update="false" label="Canceled" sequence="6" value="Canceled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Order Number" mandatory="true" max_length="40" name="order_number" type="string"/>
+        <element choice="1" default="Open" label="Order Status" max_length="40" name="order_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="Packed" sequence="1" value="Packed"/>
+                <element inactive_on_update="false" label="At Pickup" sequence="2" value="At Pickup"/>
+                <element inactive_on_update="false" label="Partially Shipped" sequence="3" value="Partially Shipped"/>
+                <element inactive_on_update="false" label="Fully Shipped" sequence="4" value="Fully Shipped"/>
+                <element inactive_on_update="false" label="Partially Delivered" sequence="5" value="Partially Delivered"/>
+                <element inactive_on_update="false" label="Fully Delivered" sequence="6" value="Fully"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="7" value="Cancelled"/>
+            </choice>
+        </element>
+        <element choice="1" label="Order Tracking Status" max_length="40" name="order_tracking_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="At Pickup" sequence="0" value="At Pickup"/>
+                <element inactive_on_update="false" label="Picked Up" sequence="1" value="Picked Up"/>
+                <element inactive_on_update="false" label="Shipped" sequence="2" value="Shipped"/>
+                <element inactive_on_update="false" label="Fully Shipped" sequence="3" value="Fully Shipped"/>
+                <element inactive_on_update="false" label="At Facilty" sequence="4" value="At Facilty"/>
+                <element inactive_on_update="false" label="At Delivered" sequence="5" value="At Delivered"/>
+                <element inactive_on_update="false" label="Fully Delivered" sequence="6" value="Fully Delivered"/>
+            </choice>
+        </element>
+        <element choice="1" label="Order Type" mandatory="true" max_length="40" name="order_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sales order" sequence="0" value="Sales order"/>
+                <element inactive_on_update="false" label="Purchase Order" sequence="1" value="Purchase Order"/>
+                <element inactive_on_update="false" label="Stock Transfer Order" sequence="2" value="Stock Transfer Order"/>
+            </choice>
+        </element>
+        <element label="Origin" max_length="32" name="origin" reference="x_snc_order_sys_address" type="reference"/>
+        <element label="Pickup ETA" max_length="32" name="pickup_eta" reference="x_snc_order_sys_order_eta_details" type="reference"/>
+        <element default="N/A" label="Required Delivery Date" max_length="40" name="required_delivery_date" type="glide_date_time"/>
+        <element choice="1" label="Risk" max_length="40" name="risk" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" sequence="0"/>
+                <element inactive_on_update="false" label="Inventory Risk" sequence="0" value="Inventory Risk"/>
+                <element inactive_on_update="false" label="Weather Risk" sequence="1" value="Weather Risk"/>
+                <element inactive_on_update="false" label="Shipment Not Assigned" sequence="2" value="Shipment Not Assigned"/>
+            </choice>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Vendor Name" max_length="40" name="vendor_name" type="string"/>
+        <index name="index" unique="true">
+            <element name="buyer_name"/>
+            <element name="destination_eta"/>
+            <element name="must_by_ship_date"/>
+            <element name="order_number"/>
+            <element name="order_status"/>
+            <element name="pickup_eta"/>
+            <element name="required_delivery_date"/>
+            <element name="eta"/>
+            <element name="vendor_name"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="company_id"/>
+        </index>
+        <index name="index3">
+            <element name="destination"/>
+        </index>
+        <index name="index4">
+            <element name="destination_eta"/>
+        </index>
+        <index name="index5">
+            <element name="order_number"/>
+            <element name="order_status"/>
+            <element name="order_tracking_status"/>
+            <element name="buyer_name"/>
+            <element name="destination"/>
+            <element name="destination_eta"/>
+            <element name="origin"/>
+            <element name="pickup_eta"/>
+            <element name="required_delivery_date"/>
+            <element name="eta"/>
+            <element name="order_type"/>
+            <element name="vendor_name"/>
+        </index>
+        <index name="index6" unique="true">
+            <element name="order_number"/>
+            <element name="company_id"/>
+        </index>
+        <index name="index7">
+            <element name="origin"/>
+        </index>
+        <index name="index8">
+            <element name="pickup_eta"/>
+        </index>
+        <index name="index9">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

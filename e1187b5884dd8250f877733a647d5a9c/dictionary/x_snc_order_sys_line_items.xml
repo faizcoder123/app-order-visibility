@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f65771248419c250f877733a647d5a8f" label="Line Items" max_length="40" name="x_snc_order_sys_line_items" type="collection">
+        <element label="Item Number" mandatory="true" max_length="40" name="item_number" type="string" unique="true"/>
+        <element label="Item Price" max_length="20" name="item_price" type="price"/>
+        <element label="Item Quantity" max_length="40" name="item_quantity" type="integer"/>
+        <element label="Line ETA" max_length="32" name="line_eta" reference="x_snc_order_sys_line_eta_details" type="reference"/>
+        <element label="Line Status" max_length="40" name="line_status" type="string"/>
+        <element label="Order ID" mandatory="true" max_length="32" name="order_id" reference="x_snc_order_sys_orders" type="reference"/>
+        <element label="Product" mandatory="true" max_length="32" name="product" reference="x_snc_order_sys_products" type="reference"/>
+        <element label="Total Value" max_length="20" name="total_value" type="price"/>
+        <element label="Total Volume" max_length="40" name="total_volume" type="float"/>
+        <element label="Uom" max_length="40" name="uom" type="string"/>
+        <index name="index" unique="true">
+            <element name="item_number"/>
+        </index>
+        <index name="index2">
+            <element name="line_eta"/>
+        </index>
+        <index name="index3" unique="true">
+            <element name="order_id"/>
+            <element name="item_number"/>
+        </index>
+        <index name="index4">
+            <element name="product"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1b839be8849dc250f877733a647d5a16" label="x_snc_order_sys_m2m_Orders_Risks" max_length="40" name="x_snc_order_sys_m2m_x_snc_order_x_snc_order" type="collection">
+        <element attributes="encode_utf8=false" label="Orders" max_length="32" name="x_snc_order_sys_orders" reference="x_snc_order_sys_orders" type="reference"/>
+        <element attributes="encode_utf8=false" label="Risks" max_length="32" name="x_snc_order_sys_risk" reference="x_snc_order_sys_risk" type="reference"/>
+        <index name="index">
+            <element name="x_snc_order_sys_orders"/>
+        </index>
+        <index name="index2">
+            <element name="x_snc_order_sys_risk"/>
+        </index>
+    </element>
+</database>

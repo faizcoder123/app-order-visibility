@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a6d4c0688411c250f877733a647d5af4" extends="x_snc_order_sys_eta_details" label="Order ETA Details" max_length="40" name="x_snc_order_sys_order_eta_details" type="collection">
+        <element label="Order ETA Meta Data" max_length="40" name="order_eta_meta_data" type="string"/>
+        <element label="Order Id" max_length="40" name="order_id" reference="x_snc_order_sys_orders" type="string"/>
+    </element>
+</database>
