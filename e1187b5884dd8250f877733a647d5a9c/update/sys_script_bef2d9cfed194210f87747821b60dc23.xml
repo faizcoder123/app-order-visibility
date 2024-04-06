@@ -11,14 +11,14 @@
         <advanced>true</advanced>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>sys_db_object</collection>
+        <collection>x_snc_order_sys_order_eta_details</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>ETA Computation</name>
+        <name>Compute ETA</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -28,32 +28,40 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-
-
-    if (current.required_deliverydate != previous.required_deliverydate) {
-
-        gs.info(current.pickup_eta);
-
+    var destinationFlag = false;
+    var pickupFlag = false;
+    var etaComputation = new ETAComputation();
+    if (current.destination_eta != previous.destination_eta) {
+        destinationFlag = true;
+        gs.info("destination ETA computation");
     }
+
+    if (current.pickup_eta != previous.pickup_eta) {
+        pickupFlag = true;
+        gs.info("pickup ETA computation");
+    }
+
+     gs.info(" ETA computation"); 
+    etaComputation.compute(current.order_id, destinationFlag, pickupFlag);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-02 10:37:17</sys_created_on>
+        <sys_created_on>2024-04-05 21:31:25</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>1f8e4371f8954210f8779df5dbcf0d35</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>ETA Computation</sys_name>
+        <sys_id>bef2d9cfed194210f87747821b60dc23</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Compute ETA</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
-        <sys_update_name>sys_script_1f8e4371f8954210f8779df5dbcf0d35</sys_update_name>
+        <sys_update_name>sys_script_bef2d9cfed194210f87747821b60dc23</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-02 10:37:17</sys_updated_on>
+        <sys_updated_on>2024-04-06 16:23:08</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=1f8e4371f8954210f8779df5dbcf0d35"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=bef2d9cfed194210f87747821b60dc23"/>
 </record_update>

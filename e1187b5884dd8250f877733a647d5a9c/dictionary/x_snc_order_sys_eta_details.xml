@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="dc8048e08411c250f877733a647d5aea" label="ETA Details" max_length="40" name="x_snc_order_sys_eta_details" type="collection">
-        <element default="N/A" label="ETA" max_length="40" name="eta" type="glide_date_time"/>
-        <element default="N/A" display="true" label="ETA Status" max_length="10" name="eta_status" type="string"/>
-        <element choice="1" label="ETA Type" max_length="40" name="eta_type" type="choice">
+        <element label="Destination ETA" max_length="40" name="destination_eta" type="glide_date_time"/>
+        <element choice="1" label="Destination ETA Status" max_length="40" name="destination_eta_status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" default="N/A" label="Pickup ETA Status" max_length="10" name="eta_status" type="choice">
             <choice/>
         </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>

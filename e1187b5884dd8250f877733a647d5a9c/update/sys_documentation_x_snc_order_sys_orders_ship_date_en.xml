@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="x_snc_order_sys_m2m_Orders_Risks" language="en" table="x_snc_order_sys_m2m_x_snc_order_x_snc_order">
+    <sys_documentation element="ship_date" label="Ship Date" language="en" table="x_snc_order_sys_orders">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>ship_date</element>
             <help/>
             <hint/>
-            <label>x_snc_order_sys_m2m_Orders_Risks</label>
+            <label>Ship Date</label>
             <language>en</language>
-            <name>x_snc_order_sys_m2m_x_snc_order_x_snc_order</name>
-            <plural>x_snc_order_sys_m2m_Orders_Risks</plural>
+            <name>x_snc_order_sys_orders</name>
+            <plural>Ship Dates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-29 12:27:24</sys_created_on>
+            <sys_created_on>2024-04-06 16:27:51</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_snc_order_sys_m2m_Orders_Risks</sys_name>
+            <sys_name>Ship Date</sys_name>
             <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_order_sys_m2m_x_snc_order_x_snc_order__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_order_sys_orders_ship_date_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 12:27:24</sys_updated_on>
+            <sys_updated_on>2024-04-06 16:27:51</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

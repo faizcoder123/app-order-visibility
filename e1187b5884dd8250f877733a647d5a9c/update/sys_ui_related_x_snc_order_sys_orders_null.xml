@@ -2,17 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_snc_order_sys_orders" version="2" view="">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Orders - Default view" name="x_snc_order_sys_orders" related_list="NULL" sys_domain="global" view="Default view">5b4aa43df8990210f8779df5dbcf0dfe</list_id>
+            <list_id display_value="Orders - Default view" name="x_snc_order_sys_orders" related_list="NULL" sys_domain="global" view="Default view">e1a58c1af8d98210f8779df5dbcf0d55</list_id>
             <order_by/>
             <position>0</position>
             <related_list>REL:264ed8bdf8590210f8779df5dbcf0d95</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 21:20:21</sys_created_on>
-            <sys_id>d74aa43df8990210f8779df5dbcf0dff</sys_id>
+            <sys_created_on>2024-04-03 07:57:10</sys_created_on>
+            <sys_id>e9a58c1af8d98210f8779df5dbcf0d56</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 21:20:21</sys_updated_on>
+            <sys_updated_on>2024-04-03 07:57:10</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Orders - Default view" name="x_snc_order_sys_orders" related_list="NULL" sys_domain="global" view="Default view">e1a58c1af8d98210f8779df5dbcf0d55</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_snc_order_sys_order_eta_details.order_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-03 07:57:10</sys_created_on>
+            <sys_id>e1a58c1af8d98210f8779df5dbcf0d57</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-03 07:57:10</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Orders - Default view</calculated_name>
@@ -23,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-04-01 21:20:21</sys_created_on>
+            <sys_created_on>2024-04-03 07:57:10</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5b4aa43df8990210f8779df5dbcf0dfe</sys_id>
+            <sys_id>e1a58c1af8d98210f8779df5dbcf0d55</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Orders - Default view</sys_name>
             <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
@@ -34,7 +48,7 @@
             <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_order_sys_orders_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-04-01 21:20:21</sys_updated_on>
+            <sys_updated_on>2024-04-03 07:57:10</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

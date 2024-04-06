@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="eta" label="ETA" language="en" table="x_snc_order_sys_eta_details">
+    <sys_documentation element="pickup_eta" label="Pickup ETA" language="en" table="x_snc_order_sys_order_eta_details">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>eta</element>
+            <element>pickup_eta</element>
             <help/>
             <hint/>
-            <label>ETA</label>
+            <label>Pickup ETA</label>
             <language>en</language>
-            <name>x_snc_order_sys_eta_details</name>
-            <plural>ETAs</plural>
+            <name>x_snc_order_sys_order_eta_details</name>
+            <plural>Pickup ETAs</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-28 21:10:13</sys_created_on>
+            <sys_created_on>2024-04-06 16:28:33</sys_created_on>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>ETA</sys_name>
+            <sys_name>Pickup ETA</sys_name>
             <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_order_sys_eta_details_eta_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_order_sys_order_eta_details_pickup_eta_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-28 21:10:13</sys_updated_on>
+            <sys_updated_on>2024-04-06 16:28:33</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

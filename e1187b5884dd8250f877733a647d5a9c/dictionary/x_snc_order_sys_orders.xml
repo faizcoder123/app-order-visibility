@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="0e5cf7dc84dd8250f877733a647d5a50" label="Orders" max_length="40" name="x_snc_order_sys_orders" type="collection">
         <element label="Buyer Name" max_length="40" name="buyer_name" type="string"/>
-        <element label="Company Id" mandatory="true" max_length="40" name="company_id" type="string" unique="true"/>
+        <element label="Company Id" mandatory="true" max_length="40" name="company_id" type="string"/>
         <element label="Destination" max_length="32" name="destination" reference="x_snc_order_sys_address" type="reference"/>
-        <element label="Destination ETA" max_length="32" name="destination_eta" reference="x_snc_order_sys_order_eta_details" type="reference"/>
-        <element default="N/A" label="Ship Date" max_length="40" name="eta" type="glide_date_time"/>
+        <element label="ETA Details" max_length="32" name="destination_eta" reference="x_snc_order_sys_order_eta_details" type="reference"/>
         <element choice="1" label="Freight type" mandatory="true" max_length="40" name="freight_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="LTL" sequence="0" value="LTL"/>
@@ -27,7 +26,7 @@
                 <element inactive_on_update="false" label="Canceled" sequence="6" value="Canceled"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Order Number" mandatory="true" max_length="40" name="order_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Order Number" mandatory="true" max_length="40" name="order_number" type="string"/>
         <element choice="1" default="Open" label="Order Status" max_length="40" name="order_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
@@ -59,7 +58,6 @@
             </choice>
         </element>
         <element label="Origin" max_length="32" name="origin" reference="x_snc_order_sys_address" type="reference"/>
-        <element label="Pickup ETA" max_length="32" name="pickup_eta" reference="x_snc_order_sys_order_eta_details" type="reference"/>
         <element default="N/A" label="Required Delivery Date" max_length="40" name="required_delivery_date" type="glide_date_time"/>
         <element choice="1" label="Risk" max_length="40" name="risk" type="choice">
             <choice>
@@ -69,29 +67,32 @@
                 <element inactive_on_update="false" label="Shipment Not Assigned" sequence="2" value="Shipment Not Assigned"/>
             </choice>
         </element>
+        <element label="Ship Date" max_length="40" name="ship_date" type="glide_date_time"/>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Vendor Name" max_length="40" name="vendor_name" type="string"/>
-        <index name="index" unique="true">
+        <index name="index">
             <element name="buyer_name"/>
             <element name="destination_eta"/>
             <element name="must_by_ship_date"/>
             <element name="order_number"/>
             <element name="order_status"/>
-            <element name="pickup_eta"/>
             <element name="required_delivery_date"/>
-            <element name="eta"/>
             <element name="vendor_name"/>
         </index>
-        <index name="index2" unique="true">
+        <index name="index2">
             <element name="company_id"/>
         </index>
-        <index name="index3">
-            <element name="destination"/>
+        <index name="index3" unique="true">
+            <element name="company_id"/>
+            <element name="order_number"/>
         </index>
         <index name="index4">
-            <element name="destination_eta"/>
+            <element name="destination"/>
         </index>
         <index name="index5">
+            <element name="destination_eta"/>
+        </index>
+        <index name="index6">
             <element name="order_number"/>
             <element name="order_status"/>
             <element name="order_tracking_status"/>
@@ -99,21 +100,16 @@
             <element name="destination"/>
             <element name="destination_eta"/>
             <element name="origin"/>
-            <element name="pickup_eta"/>
             <element name="required_delivery_date"/>
-            <element name="eta"/>
             <element name="order_type"/>
             <element name="vendor_name"/>
         </index>
-        <index name="index6" unique="true">
+        <index name="index7" unique="true">
             <element name="order_number"/>
             <element name="company_id"/>
         </index>
-        <index name="index7">
-            <element name="origin"/>
-        </index>
         <index name="index8">
-            <element name="pickup_eta"/>
+            <element name="origin"/>
         </index>
         <index name="index9">
             <element name="sys_class_name"/>
