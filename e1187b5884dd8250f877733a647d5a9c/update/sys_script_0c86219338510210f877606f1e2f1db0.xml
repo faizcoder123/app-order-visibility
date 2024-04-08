@@ -18,8 +18,8 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>ETA Computation  Order</name>
-        <order>300</order>
+        <name>RiskTrigger</name>
+        <order>200</order>
         <priority>100</priority>
         <rest_method/>
         <rest_method_text/>
@@ -28,39 +28,28 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
-    var destinationFlag = false;
-    var pickupFlag = false;
-    var etaComputation = new ETAComputation();
-    if (current.required_delivery_date != previous.required_delivery_date) {
-        destinationFlag = true;
-        gs.info("destination ETA computation");
-    }
+    var riskCheck = new x_snc_order_sys.RiskCheck();
+    riskCheck.compute(current.sys_id);
 
-    if (current.ship_date != previous.ship_date) {
-        pickupFlag = true;
-        gs.info("pickup ETA computation");
-    }
-
-    etaComputation.compute(current.order_id, destinationFlag, pickupFlag);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-03 12:28:28</sys_created_on>
+        <sys_created_on>2024-04-06 17:37:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>180fb01af8dd8210f8779df5dbcf0dae</sys_id>
-        <sys_mod_count>13</sys_mod_count>
-        <sys_name>ETA Computation  Order</sys_name>
+        <sys_id>0c86219338510210f877606f1e2f1db0</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>RiskTrigger</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
-        <sys_update_name>sys_script_180fb01af8dd8210f8779df5dbcf0dae</sys_update_name>
+        <sys_update_name>sys_script_0c86219338510210f877606f1e2f1db0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-06 20:41:21</sys_updated_on>
+        <sys_updated_on>2024-04-08 07:17:31</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
-    <sys_translated_text action="delete_multiple" query="documentkey=180fb01af8dd8210f8779df5dbcf0dae"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c86219338510210f877606f1e2f1db0"/>
 </record_update>

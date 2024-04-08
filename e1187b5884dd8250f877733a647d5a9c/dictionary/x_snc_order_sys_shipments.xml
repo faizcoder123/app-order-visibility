@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d4df959b38110210f877606f1e2f1d54" label="Shipments" max_length="40" name="x_snc_order_sys_shipments" type="collection">
+        <element label="Destiantion ETA" max_length="40" name="destiantion_eta" type="glide_date_time"/>
+        <element label="Destination" max_length="40" name="destination" type="string"/>
+        <element label="Order Id" max_length="32" name="order_id" reference="x_snc_order_sys_orders" type="reference"/>
+        <element label="Origin" max_length="40" name="origin" type="string"/>
+        <element label="Pickup ETA" max_length="40" name="pickup_eta" type="glide_date_time"/>
+        <element label="Shipment Number" max_length="40" name="shipment_number" type="string" unique="true"/>
+        <index name="index">
+            <element name="order_id"/>
+        </index>
+        <index name="index2" unique="true">
+            <element name="shipment_number"/>
+        </index>
+    </element>
+</database>
