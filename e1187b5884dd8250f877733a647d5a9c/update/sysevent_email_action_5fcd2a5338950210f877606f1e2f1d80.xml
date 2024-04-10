@@ -8,9 +8,9 @@
         <category display_value="Risk Management" name="Risk Management">207d625338950210f877606f1e2f1d5d</category>
         <collection>x_snc_order_sys_orders</collection>
         <condition/>
-        <content_type>text/html</content_type>
+        <content_type>text/plain</content_type>
         <default_interval/>
-        <description/>
+        <description>Risk Management</description>
         <digest_from/>
         <digest_html/>
         <digest_reply_to/>
@@ -28,29 +28,34 @@
         <event_parm_2>false</event_parm_2>
         <exclude_delegates>false</exclude_delegates>
         <force_delivery>false</force_delivery>
-        <from/>
+        <from>faizhaq241@gmail.com</from>
         <generation_type>triggered</generation_type>
-        <importance/>
-        <include_attachments>false</include_attachments>
+        <importance>high</importance>
+        <include_attachments>true</include_attachments>
         <item>event.parm1</item>
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
         <message_html/>
         <message_list/>
-        <message_text/>
+        <message_text><![CDATA[Order Number: ${order_number}
+
+
+Risk: ${risk}]]></message_text>
         <name>Order Risk Notify</name>
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields/>
+        <recipient_fields>order_number,company_id,order_status,buyer_name,destination,destination_eta,freight_type,must_by_ship_date,order_erp_status,order_tracking_status,origin,required_delivery_date,risk,vendor_name,sys_class_name,sys_created_on,sys_created_by,order_type,ship_date,sys_tags,sys_updated_by,sys_updated_on,sys_mod_count</recipient_fields>
         <recipient_groups/>
-        <recipient_users>6816f79cc0a8016401c5a33be04be441,faizhaq241@gmail.com</recipient_users>
+        <recipient_users>62826bf03710200044e0bfc8bcbe5df1,faizhaq241@gmail.com,faizul.haq@servicenow.com</recipient_users>
         <reply_to/>
         <send_self>true</send_self>
-        <sms_alternate/>
+        <sms_alternate><![CDATA[Order Number: ${order_number}
+
+Risk: ${risk}]]></sms_alternate>
         <style/>
-        <subject/>
+        <subject>Order RISK ALERT</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -58,7 +63,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5fcd2a5338950210f877606f1e2f1d80</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Order Risk Notify</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
@@ -66,9 +71,9 @@
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
         <sys_update_name>sysevent_email_action_5fcd2a5338950210f877606f1e2f1d80</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-06 22:46:28</sys_updated_on>
+        <sys_updated_on>2024-04-09 12:47:52</sys_updated_on>
         <sys_version>2</sys_version>
-        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <template display_value="Risk Assigned">3bdf7b40ec294210f877ca95abf5e7d3</template>
         <type>email</type>
         <weight>0</weight>
     </sysevent_email_action>
