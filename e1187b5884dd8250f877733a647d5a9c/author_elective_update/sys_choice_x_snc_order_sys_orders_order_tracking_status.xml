@@ -20,19 +20,19 @@
             <element>order_tracking_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>At Pickup</label>
+            <label>Open</label>
             <language>en</language>
             <name>x_snc_order_sys_orders</name>
             <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-29 21:02:26</sys_created_on>
+            <sys_created_on>2024-04-10 16:00:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
-            <value>At Pickup</value>
+            <sys_updated_on>2024-04-10 16:00:03</sys_updated_on>
+            <value>Open</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -48,9 +48,9 @@
             <sys_created_on>2024-03-29 21:02:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
+            <sys_updated_on>2024-04-11 22:52:21</sys_updated_on>
             <value>Picked Up</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -58,19 +58,19 @@
             <element>order_tracking_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Shipped</label>
+            <label>Partially Shipped</label>
             <language>en</language>
             <name>x_snc_order_sys_orders</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-29 21:02:26</sys_created_on>
+            <sys_created_on>2024-04-11 22:52:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
-            <value>Shipped</value>
+            <sys_updated_on>2024-04-11 22:52:21</sys_updated_on>
+            <value>Partially Shipped</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -86,9 +86,9 @@
             <sys_created_on>2024-03-29 21:02:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
+            <sys_updated_on>2024-04-11 22:52:21</sys_updated_on>
             <value>Fully Shipped</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -96,38 +96,19 @@
             <element>order_tracking_status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>At Facilty</label>
+            <label>Partially Delivered</label>
             <language>en</language>
             <name>x_snc_order_sys_orders</name>
             <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-29 21:02:26</sys_created_on>
+            <sys_created_on>2024-04-11 22:52:21</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
-            <value>At Facilty</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>order_tracking_status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>At Delivered</label>
-            <language>en</language>
-            <name>x_snc_order_sys_orders</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-03-29 21:02:26</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
-            <value>At Delivered</value>
+            <sys_updated_on>2024-04-11 22:52:21</sys_updated_on>
+            <value>Partially Delivered</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -137,15 +118,15 @@
             <label>Fully Delivered</label>
             <language>en</language>
             <name>x_snc_order_sys_orders</name>
-            <sequence>6</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-03-29 21:02:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-03-29 21:02:26</sys_updated_on>
+            <sys_updated_on>2024-04-11 22:52:21</sys_updated_on>
             <value>Fully Delivered</value>
         </sys_choice>
     </sys_choice>
