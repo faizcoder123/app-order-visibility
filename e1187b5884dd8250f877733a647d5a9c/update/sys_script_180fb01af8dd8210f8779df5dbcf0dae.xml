@@ -41,7 +41,7 @@
         gs.info("pickup ETA computation");
     }
 
-    etaComputation.compute(current.order_id, destinationFlag, pickupFlag);
+    etaComputation.compute(current.sys_id, destinationFlag, pickupFlag);
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -50,7 +50,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>180fb01af8dd8210f8779df5dbcf0dae</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>ETA Computation  Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
         <sys_update_name>sys_script_180fb01af8dd8210f8779df5dbcf0dae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-12 00:53:22</sys_updated_on>
+        <sys_updated_on>2024-04-12 16:36:48</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
