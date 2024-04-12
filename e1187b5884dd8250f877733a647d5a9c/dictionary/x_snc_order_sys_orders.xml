@@ -18,9 +18,9 @@
         <element choice="1" label="Order ERP Status" max_length="40" name="order_erp_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
-                <element inactive_on_update="false" label="Partially Shipped" sequence="1" value="Partially Shipped"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Shipped" sequence="1" value="Partially Shipped"/>
                 <element inactive_on_update="false" label="Fully Shipped" sequence="2" value="Fully Shipped"/>
-                <element inactive_on_update="false" label="Partially Delivered" sequence="3" value="Partially Delivered"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Delivered" sequence="3" value="Partially Delivered"/>
                 <element inactive_on_update="false" label="Fully Delivered" sequence="4" value="Fully Delivered"/>
                 <element inactive_on_update="false" label="Canceled" sequence="5" value="Canceled"/>
             </choice>
@@ -29,20 +29,20 @@
         <element choice="1" default="Open" label="Order Status" max_length="40" name="order_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
-                <element inactive_on_update="false" label="Partially Shipped" sequence="1" value="Partially Shipped"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Shipped" sequence="1" value="Partially Shipped"/>
                 <element inactive_on_update="false" label="Fully Shipped" sequence="2" value="Fully Shipped"/>
-                <element inactive_on_update="false" label="Partially Delivered" sequence="3" value="Partially Delivered"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Delivered" sequence="3" value="Partially Delivered"/>
                 <element inactive_on_update="false" label="Fully Delivered" sequence="4" value="Fully Delivered"/>
                 <element inactive_on_update="false" label="Canceled" sequence="5" value="Canceled"/>
             </choice>
         </element>
         <element choice="1" label="Order Tracking Status" max_length="40" name="order_tracking_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive="true" inactive_on_update="true" label="Open" sequence="0" value="Open"/>
                 <element inactive_on_update="false" label="Picked Up" sequence="1" value="Picked Up"/>
-                <element inactive_on_update="false" label="Partially Shipped" sequence="2" value="Partially Shipped"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Shipped" sequence="2" value="Partially Shipped"/>
                 <element inactive_on_update="false" label="Fully Shipped" sequence="3" value="Fully Shipped"/>
-                <element inactive_on_update="false" label="Partially Delivered" sequence="4" value="Partially Delivered"/>
+                <element inactive="true" inactive_on_update="true" label="Partially Delivered" sequence="4" value="Partially Delivered"/>
                 <element inactive_on_update="false" label="Fully Delivered" sequence="5" value="Fully Delivered"/>
             </choice>
         </element>

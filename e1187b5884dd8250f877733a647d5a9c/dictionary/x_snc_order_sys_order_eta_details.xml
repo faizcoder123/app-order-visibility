@@ -6,5 +6,8 @@
         <index name="index">
             <element name="order_id"/>
         </index>
+        <index name="index2" unique="true">
+            <element name="order_id"/>
+        </index>
     </element>
 </database>

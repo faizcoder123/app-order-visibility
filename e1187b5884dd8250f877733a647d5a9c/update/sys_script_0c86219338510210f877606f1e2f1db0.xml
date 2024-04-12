@@ -39,7 +39,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0c86219338510210f877606f1e2f1db0</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>RiskTrigger</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
@@ -47,7 +47,7 @@
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
         <sys_update_name>sys_script_0c86219338510210f877606f1e2f1db0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-08 07:17:31</sys_updated_on>
+        <sys_updated_on>2024-04-12 00:33:26</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

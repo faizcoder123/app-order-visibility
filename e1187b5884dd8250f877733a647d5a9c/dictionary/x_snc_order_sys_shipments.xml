@@ -6,6 +6,13 @@
         <element label="Origin" max_length="40" name="origin" type="string"/>
         <element label="Pickup ETA" max_length="40" name="pickup_eta" type="glide_date_time"/>
         <element label="Shipment Number" max_length="40" name="shipment_number" type="string" unique="true"/>
+        <element choice="1" label="Shipment Status" max_length="40" name="shipment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Picked Up" sequence="0" value="Picked Up"/>
+                <element inactive_on_update="false" label="Fully Shipped" sequence="1" value="Fully Shipped"/>
+                <element inactive_on_update="false" label="Fully Delivered" sequence="2" value="Fully Delivered"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="order_id"/>
         </index>
