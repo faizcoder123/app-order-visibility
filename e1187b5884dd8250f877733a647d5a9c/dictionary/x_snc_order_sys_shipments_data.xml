@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="915ea8ada5e5c210f8778d6f886be40a" extends="sys_import_set_row" label="shipments_data" max_length="40" name="x_snc_order_sys_shipments_data" type="collection">
+        <element label="Destiantion ETA" max_length="40" name="destiantion_eta" type="glide_date_time"/>
+        <element label="Order Number" max_length="40" name="order_number" type="string"/>
+        <element label="Pickup ETA" max_length="40" name="pickup_eta" type="glide_date_time"/>
+        <element label="Shipment Number" max_length="40" name="shipment_number" type="string"/>
+        <element label="Shipment Status" max_length="40" name="shipment_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Destiantion ETA" label="Destiantion ETA" max_length="40" name="u_destiantion_eta" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Order Number" label="Order Number" max_length="40" name="u_order_number" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Pickup ETA" label="Pickup ETA" max_length="40" name="u_pickup_eta" type="glide_date_time"/>
+        <element attributes="import_attribute_name=Shipment Number" label="Shipment Number" max_length="40" name="u_shipment_number" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Shipment Status" label="Shipment Status" max_length="40" name="u_shipment_status" type="string"/>
+    </element>
+</database>
