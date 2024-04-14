@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
     <sys_transform_entry action="INSERT_OR_UPDATE">
         <choice_action>create</choice_action>
-        <coalesce>true</coalesce>
+        <coalesce>false</coalesce>
         <coalesce_case_sensitive>false</coalesce_case_sensitive>
         <coalesce_empty_fields>false</coalesce_empty_fields>
         <date_format>yyyy-MM-dd HH:mm:ss</date_format>
         <map display_value="TransformShipmentData">a2e6c5a9a569c210f8778d6f886be4dd</map>
         <reference_value_field/>
-        <source_field>u_shipment_number</source_field>
+        <source_field>[Script]</source_field>
         <source_script><![CDATA[answer = (function transformEntry(source) {
 
-	// Add your code here
-	return ""; // return the value to be put into the target field
+    var orderTableRec = new GlideRecord('x_snc_order_sys_orders');
+    orderTableRec.get(orderId);
+    orderTableRec.query();
+    if (name.next()) {
+        return current.sys_id;
+
+    }
+    return "";
 
 })(source);]]></source_script>
         <source_table>x_snc_order_sys_shipments_data</source_table>
         <sys_class_name>sys_transform_entry</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-04-13 15:06:19</sys_created_on>
-        <sys_id>9dc785e9a569c210f8778d6f886be4ec</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>u_shipment_number</sys_name>
+        <sys_created_on>2024-04-13 19:58:28</sys_created_on>
+        <sys_id>baf98221a5adc210f8778d6f886be4d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>[Script]</sys_name>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
         <sys_policy/>
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
-        <sys_update_name>sys_transform_entry_9dc785e9a569c210f8778d6f886be4ec</sys_update_name>
+        <sys_update_name>sys_transform_entry_baf98221a5adc210f8778d6f886be4d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-14 00:05:50</sys_updated_on>
-        <target_field>shipment_number</target_field>
+        <sys_updated_on>2024-04-13 19:58:28</sys_updated_on>
+        <target_field>order_id</target_field>
         <target_table>x_snc_order_sys_shipments</target_table>
-        <use_source_script>false</use_source_script>
+        <use_source_script>true</use_source_script>
     </sys_transform_entry>
 </record_update>
