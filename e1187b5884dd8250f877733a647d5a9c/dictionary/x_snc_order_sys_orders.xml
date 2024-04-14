@@ -15,7 +15,7 @@
             </choice>
         </element>
         <element label="Must By Ship Date" max_length="40" name="must_by_ship_date" type="glide_date_time"/>
-        <element choice="1" label="Order ERP Status" max_length="40" name="order_erp_status" type="choice">
+        <element choice="1" default="Open" label="Order ERP Status" max_length="40" name="order_erp_status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
                 <element inactive="true" inactive_on_update="true" label="Partially Shipped" sequence="1" value="Partially Shipped"/>
