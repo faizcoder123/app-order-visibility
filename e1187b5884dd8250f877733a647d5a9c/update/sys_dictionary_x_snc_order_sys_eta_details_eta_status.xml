@@ -16,7 +16,7 @@
         <column_label>Pickup ETA Status</column_label>
         <comments/>
         <create_roles/>
-        <default_value>N/A</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_order_sys_eta_details_eta_status</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-03 07:46:38</sys_updated_on>
+        <sys_updated_on>2024-04-14 20:50:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
