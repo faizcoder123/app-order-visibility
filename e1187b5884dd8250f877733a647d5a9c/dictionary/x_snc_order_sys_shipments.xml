@@ -8,9 +8,10 @@
         <element label="Shipment Number" max_length="40" name="shipment_number" type="string" unique="true"/>
         <element choice="1" label="Shipment Status" max_length="40" name="shipment_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Picked Up" sequence="0" value="Picked Up"/>
-                <element inactive_on_update="false" label="Fully Shipped" sequence="1" value="Fully Shipped"/>
-                <element inactive_on_update="false" label="Fully Delivered" sequence="2" value="Fully Delivered"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="Open"/>
+                <element inactive_on_update="false" label="Picked Up" sequence="1" value="Picked Up"/>
+                <element inactive_on_update="false" label="Fully Shipped" sequence="2" value="Fully Shipped"/>
+                <element inactive_on_update="false" label="Fully Delivered" sequence="3" value="Fully Delivered"/>
             </choice>
         </element>
         <index name="index">
