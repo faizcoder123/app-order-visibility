@@ -52,11 +52,13 @@
         }
 
 
+        gs.info(eligibleStatus + " " + orderStatusPriorityMap[eligibleStatus.toString()]);
 
+        gs.info(current.order_erp_status + " " + current.order_tracking_status + " " + current.order_status);
 
         if (orderStatusPriorityMap[eligibleStatus] > orderStatusPriorityMap[current.order_status]) {
 
-
+            gs.info("inside if elegib");
             current.order_status = eligibleStatus;
             current.update();
             gs.info(current.order_erp_status + " " + current.order_tracking_status + " " + current.order_status);
@@ -75,7 +77,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf88e9a0ec61c210f877ca95abf5e726</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_name>Order Status Computation</sys_name>
         <sys_overrides/>
         <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
@@ -83,7 +85,7 @@
         <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
         <sys_update_name>sys_script_cf88e9a0ec61c210f877ca95abf5e726</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-04-14 15:30:49</sys_updated_on>
+        <sys_updated_on>2024-04-16 05:28:19</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
