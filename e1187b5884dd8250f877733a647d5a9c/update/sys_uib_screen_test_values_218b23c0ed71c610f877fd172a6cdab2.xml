@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "sysId": null,
+    "tabSysId": null,
+    "filter": null,
+    "edit": null,
+    "element": null
+}</macroponent_config>
+        <screen display_value="Default">1d8b23c0ed71c610f877fd172a6cdaad</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 21:26:34</sys_created_on>
+        <sys_id>218b23c0ed71c610f877fd172a6cdab2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_218b23c0ed71c610f877fd172a6cdab2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 21:26:34</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
