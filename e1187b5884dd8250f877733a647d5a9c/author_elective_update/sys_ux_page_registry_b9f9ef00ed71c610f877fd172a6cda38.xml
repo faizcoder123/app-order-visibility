@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>7df9ef00ed71c610f877fd172a6cda33</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes/>
+        <page/>
+        <parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app>
+        <path>order-visibilty</path>
+        <root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 21:19:45</sys_created_on>
+        <sys_id>b9f9ef00ed71c610f877fd172a6cda38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Visibilty</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_update_name>sys_ux_page_registry_b9f9ef00ed71c610f877fd172a6cda38</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 21:19:45</sys_updated_on>
+        <title>Order Visibilty</title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</application>
+        <file_path/>
+        <instance_id>538218bf2930021065656e96a56df608</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_page_registry_b9f9ef00ed71c610f877fd172a6cda38</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>7df9ef00ed71c610f877fd172a6cda33</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes/><page/><parent_app display_value="Unified Navigation app shell">c86a62e2c7022010099a308dc7c26022</parent_app><path>order-visibilty</path><root_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-21 21:19:45</sys_created_on><sys_id>b9f9ef00ed71c610f877fd172a6cda38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Order Visibilty</sys_name><sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package><sys_policy/><sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope><sys_update_name>sys_ux_page_registry_b9f9ef00ed71c610f877fd172a6cda38</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-21 21:19:45</sys_updated_on><title>Order Visibilty</title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>672989101</payload_hash>
+        <record_name>Order Visibilty</record_name>
+        <reverted_from/>
+        <source>1fa5a379f8d54210f8779df5dbcf0d5e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 21:19:46</sys_created_on>
+        <sys_id>35f9e340ed71c610f877fd172a6cdacd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f028781cd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 21:19:46</sys_updated_on>
+        <type>UX Application</type>
+        <update_guid>39f9e340ab71c610ce508b667a5a63cc</update_guid>
+        <update_guid_history>39f9e340ab71c610ce508b667a5a63cc:672989101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 22:17:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>14e58f14e4244a67895f4cafaaf7b0f1</sys_id>
+        <sys_metadata>b9f9ef00ed71c610f877fd172a6cda38</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Visibilty</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_scope_delete display_value="">4da35892c374400c9c4a38e6eb2300e4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_b9f9ef00ed71c610f877fd172a6cda38</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_b9f9ef00ed71c610f877fd172a6cda38">35f9e340ed71c610f877fd172a6cdacd</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 22:17:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

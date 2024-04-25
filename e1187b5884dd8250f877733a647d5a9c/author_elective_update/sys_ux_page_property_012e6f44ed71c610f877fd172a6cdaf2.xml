@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="OIS">b31e2b44ed71c610f877fd172a6cda84</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 21:38:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>012e6f44ed71c610f877fd172a6cdaf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_update_name>sys_ux_page_property_012e6f44ed71c610f877fd172a6cdaf2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 21:38:01</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_snc_order_sys.b31e2b44ed71c610f877fd172a6cda84.root.chrome_header</unique_name>
+        <value>{"privatePage":{"userPrefsEnabled":false,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=012e6f44ed71c610f877fd172a6cdaf2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</application>
+        <file_path/>
+        <instance_id>538218bf2930021065656e96a56df608</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_ux_page_property_012e6f44ed71c610f877fd172a6cdaf2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="OIS">b31e2b44ed71c610f877fd172a6cda84</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-21 21:38:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>012e6f44ed71c610f877fd172a6cdaf2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package><sys_policy/><sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope><sys_update_name>sys_ux_page_property_012e6f44ed71c610f877fd172a6cdaf2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-21 21:38:01</sys_updated_on><type>json</type><unique_name>x_snc_order_sys.b31e2b44ed71c610f877fd172a6cda84.root.chrome_header</unique_name><value>{"privatePage":{"userPrefsEnabled":false,"searchEnabled":false,"currentScreenLinkConfiguration":{},"globalTools":{"collapsingMenuId":0,"primaryItems":[],"secondaryItems":[]}},"publicPage":{"menuEnabled":false,"searchEnabled":false,"logoRoute":{},"actionButtons":[]}}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=012e6f44ed71c610f877fd172a6cdaf2"/></record_update>]]></payload>
+        <payload_hash>977658515</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>1fa5a379f8d54210f8779df5dbcf0d5e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 21:38:01</sys_created_on>
+        <sys_id>412e6f44ed71c610f877fd172a6cdaf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0298377a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 21:38:01</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>452e6f445d71c6101adc24a6f705a1f3</update_guid>
+        <update_guid_history>452e6f445d71c6101adc24a6f705a1f3:977658515</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-21 22:16:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>07795968ba7e4eac81d4eddf4a3b25c4</sys_id>
+        <sys_metadata>012e6f44ed71c610f877fd172a6cdaf2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Order LifeCycle Visibility System" source="x_snc_order_sys">e1187b5884dd8250f877733a647d5a9c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Order LifeCycle Visibility System">e1187b5884dd8250f877733a647d5a9c</sys_scope>
+        <sys_scope_delete display_value="">4da35892c374400c9c4a38e6eb2300e4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_012e6f44ed71c610f877fd172a6cdaf2</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_012e6f44ed71c610f877fd172a6cdaf2">412e6f44ed71c610f877fd172a6cdaf4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-21 22:16:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
